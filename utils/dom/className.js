@@ -40,11 +40,16 @@ function removeClassName(element, className) {
   }
 }
 
+function addBodyClass(className) {
+  document.body.classList.add(className)
+}
+
 export {
   addClassName,
   removeClassName
 }
 export default {
   addClassName,
-  removeClassName
+  removeClassName,
+  addBodyClass
 }
