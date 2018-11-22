@@ -6,13 +6,13 @@ function getDate(time) {
   let y = date.getFullYear()
   let m = date.getMonth() + 1
   if (m < 10) {
-    m = '0' + m
+    m = '  ' + m
   }
   let d = date.getDate()
   if (d < 10) {
     d = '0' + d
   }
-  return `${y}.${m}.${d}`
+  return `${y}年${m}月${d}日`
 }
 
 
