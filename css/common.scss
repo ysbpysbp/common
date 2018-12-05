@@ -58,3 +58,10 @@ a {
 .fa-ul {
   font-size: 16px;
 }
+
+// 此类+设置高度，自动滚动
+
+.auto-scroll{
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
