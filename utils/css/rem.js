@@ -1,7 +1,7 @@
 /**
  * Created by zhiyong on 10/18/17.
  */
-import {BASE_FONT_SIZE} from '../../configs/configs';
+import {BASE_FONT_SIZE} from '../../constants/configs';
 
 // 缓存原有class及上一次的宽度
 var prevWidth = 0;
